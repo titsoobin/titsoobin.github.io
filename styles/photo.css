@@ -1,0 +1,80 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F9F4ED;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.nav{
+	-webkit-animation-name: slideDown;
+	-moz-animation-name: slideDown;
+	-o-animation-name: slideDown;
+	animation-name: slideDown;
+}
+
+#strap, .nav{
+	-webkit-animation-delay: 2.5s;
+	-moz-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+	-webkit-animation-duration: .5s;
+	-moz-animation-duration: .5s;
+	-o-animation-duration: .5s;
+	animation-duration: .5s;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li a{
+	display: block;
+	color: #000;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #ff3300;
+	border-radius: 5px;
+	-webkit-transition: .25s ease;
+	-moz-transition: .25s ease;
+	-o-transition: .25s ease;
+	-ms-transition: .25s ease;
+	transition: .25s ease;
+}
+
+hr{
+	border: 0;
+	height: .25em;
+	background: #c66;
+	display: block;
+	clear: both;
+	margin: 2em;
+	padding: 0;
+	border-radius: 10px;
+}
+
+.small{
+	border: 0;
+	height: .75em;
+	background: #c66;
+	display: block;
+	clear: both;
+	margin: 2em;
+	padding: 0;
+	border-radius: 10px;
+}
+}
+
+.image{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.image img{
+	width: 95%;
+	padding: 5px;
+}
