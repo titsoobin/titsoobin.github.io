@@ -1,5 +1,5 @@
 *{
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	background-color: #F9F4ED;
 	font-size: 20px;
@@ -67,6 +67,7 @@ hr{
 	padding: 0;
 	border-radius: 10px;
 }
+
 }
 
 .image{
@@ -75,6 +76,6 @@ hr{
 }
 
 .image img{
-	width: 95%;
-	padding: 5px;
+	width: 100%;
+	padding: 2px;
 }
